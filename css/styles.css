@@ -1,0 +1,272 @@
+*::after,
+*::before,
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Nerko One', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #bbd2df;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    flex: 1;
+    font-family: "Monoton", sans-serif;
+}
+
+
+nav {
+    background-color: #333;
+}
+
+.header-nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-nav-item {
+    margin: 0 15px;
+}
+
+.header-nav-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.header-nav-item a:hover,
+.header-nav-item--active a {
+    color: #ff6347; /* Color para el enlace activo y al pasar el mouse */
+}
+
+  /* Estilos para el hover del título ALMA */
+  #header h1 {
+    transition: color 0.3s ease;
+}
+#header h1:hover {
+    color: #ff6347; /* Cambia este color por el que prefieras */
+    cursor: pointer;
+}
+
+.navbar-custom {
+    background-color: #bbd2df;
+}
+.special-title {
+    font-family: 'Rubik Glitch', sans-serif;
+    margin-bottom: 20px;
+}
+.photo-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.photo-section .photos {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2;
+}
+.photo-section .photos .card {
+    flex: 1 1 calc(33.333% - 10px);
+    margin: 5px;
+}
+.photo-section .text {
+    flex: 1;
+    margin-left: 20px;
+    text-align: right;
+}
+
+.special-title {
+    font-family: "Mochiy Pop One", sans-serif;
+    margin-top: 55%;
+}
+
+.scroll{
+    background-color: aliceblue;
+    box-shadow: .1rem .2rem .3rem #333;
+}
+.scroll img{
+    filter: invert(15%);
+}           
+.scroll h1{
+    color: #141C29;}
+
+h1{
+    margin: 40px;
+}
+
+body{
+    margin: 0 auto;
+    margin-right: 20px;
+
+    color: #333;
+}
+
+img{
+    max-width: 100%;
+}
+
+.car{
+    filter: invert(100%);
+    width: 45px;
+    height: auto;
+}
+
+
+.page-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.item{
+    border-radius: 10px;
+}
+
+.item:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+
+.item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: all .5s;
+    border-top-left-radius: 50px;
+    margin: 20px;
+}
+
+.item figure{
+    overflow: hidden;
+}
+
+.item:hover img{
+    transform: scale(1.2);
+}
+
+.info-product{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:15px;
+}
+
+.price{
+    font-size: 18px;
+    font-weight: 900;
+}
+.btn {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff4500;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.main {
+    margin: 20px 0;
+}
+
+.photo-card {
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.photo-card img {
+    transition: transform 0.2s;
+}
+
+.photo-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.photo-card:hover img {
+    transform: scale(1.1);
+}
+
+.contenedor-product {
+    margin-top: 20px;
+}
+
+.contenedor-product .card {
+    transition: transform 0.2s;
+}
+
+.contenedor-product .card:hover {
+    transform: scale(1.05);
+}
+
+.card-body p, .card-body h2 {
+    margin: 10px 0;
+}
+
+.h2 {
+    font-family: "Rubik Glitch Pop", system-ui;
+    
+}
+
+
+.footer-nav-item {
+    display: inline;
+}
+
+.footer-nav-item a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-nav-item a:hover {
+    color: #bbb;
+}
+
